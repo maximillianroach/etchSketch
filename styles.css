@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6C1B2;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 650px;
+    width: 650px;
+    background-color: white;
+
+
+}
+
+.gridBox {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+button {
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: 700;
+}
+
+
+.allButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 25px;
+    gap: 8px;
+}
+
+.opacityOn {
+    opacity: 0;
+}
+
+
+
+
